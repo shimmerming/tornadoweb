@@ -1,11 +1,5 @@
 #-*- coding:utf-8 -*-
-
-import six
-if six.PY3:
-    import builtins as __builtin__
-else:
-    import __builtin__
-
+import builtins as __builtin__
 
 from os.path import exists
 from types import ModuleType
